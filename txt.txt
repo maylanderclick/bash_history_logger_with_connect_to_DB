@@ -1,0 +1,100 @@
+sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c  echo  deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main  >> /etc/apt/sources.list.d/google-chrome.list 
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+sudo apt-get update
+sudo apt-get install fontforge
+sudo add-apt-repository ppa:fontforge/fontforge
+sudo apt-get update
+sudo apt-get install fontforge
+sudo apt-get install evince
+sudo snap install discord
+sudo apt install timeshift
+sudo apt install wine
+wget -q  http://deb.playonlinux.com/public.gpg  -O- | sudo apt-key add -
+sudo wget http://deb.playonlinux.com/playonlinux_precise.list -O /etc/apt/sources.list.d/playonlinux.list
+sudo apt update
+sudo apt install playonlinux
+sudo apt-get install winbind
+sudo apt-get install winetricks
+sudo snap install htop
+sudo apt install libreoffice libreoffice-plasma
+sudo apt update
+sudo apt full-upgrade
+sudo apt install tasksel
+sudo tasksel install ubuntu-mate-desktop
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository  deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main 
+sudo apt update
+sudo apt install code
+sudo apt install -y python3-pip
+sudo ./install
+sudo apt-get install csh tcsh lib32ncurses5 lib32z1 libsm6: i386 libxrender1: i386 libfreetype6: i386 libfontconfig1: i386, libxext6: i386
+sudo apt install python3-qt5 pyqt5-dev-tools qtcreator
+sudo apt-get install qt5-default 
+sudo apt-get install qtcreator
+sudo apt install qtbase5-examples qtdeclarative5-examples
+sudo apt update
+sudo apt upgrade
+sudo -H pip3 install --upgrade pip
+sudo -H pip2 install --upgrade pip
+sudo -H pip3 install --upgrade pip
+sudo apt install git
+sudo apt update
+sudo apt install qt5-default
+sudo apt install qtcreator
+sudo snap remove code
+sudo snap remove vscode
+sudo snap remove visual-studio-code
+sudo apt purge code
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository  deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main 
+sudo apt update
+sudo apt install code
+sudo apt update
+sudo apt install mysql-server
+sudo mysql_secure_installation
+sudo mysql
+sudo mysql
+sudo mysqladmin -p -u root version
+sudo mysql
+sudo apt search mysql-server
+sudo systemctl stop mysqld
+sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+sudo rm -Rf /var/lib/mysql/
+sudo rm -Rf /etc/mysql/
+sudo rm -rf /var/log/mysql
+sudo deluser --remove-home mysql
+sudo delgroup mysql
+sudo apt purge mysql-apt-config
+sudo apt purge mysql-apt-config
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo -i -u postgres
+sudo -u sammy psql
+sudo -u alena psql
+sudo -u aliiien09 psql
+sudo -i -u alena
+sudo -i -u postgres
+sudo -i -u postgres
+sudo -i -u postgres
+sudo -i -u postgres
+sudo apt install -y python-venv
+sudo apt install -y python3-venv
+sudo apt remove magnus
+sudo apt install -y python3-pip
+sudo -i -u 
+sudo -i -u postgre
+sudo -i -u postgres
+sudo -i -u postgres
+sudo -i -u postgres
+sudo apt update
+sudo -i -u postgres
+sudo -u -i postgres
+sudo -u -i postgresql
+sudo -i -u postgres
+sudo vi /etc/postgresql/9.3/main/pg_hba.conf
+sudo -i -u postgres
