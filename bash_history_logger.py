@@ -1,7 +1,7 @@
 import psycopg2
 
 conn = psycopg2.connect(dbname='bhlogger', user='postgres',
-                        password='lapki1820', host='localhost', port=5432)
+                        password='', host='localhost', port=5432)
 cursor = conn.cursor()
 # Распечатать сведения о PostgreSQL
 print("Информация о сервере PostgreSQL")
